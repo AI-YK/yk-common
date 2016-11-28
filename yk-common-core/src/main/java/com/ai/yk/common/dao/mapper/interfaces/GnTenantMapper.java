@@ -1,10 +1,10 @@
-package com.ai.yc.common.dao.mapper.interfaces;
+package com.ai.yk.common.dao.mapper.interfaces;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
-import com.ai.yc.common.dao.mapper.bo.GnTenantCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.dao.mapper.bo.GnTenantCriteria;
 
 public interface GnTenantMapper {
     int countByExample(GnTenantCriteria example);

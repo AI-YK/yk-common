@@ -1,4 +1,4 @@
-package com.ai.yc.common.cache;
+package com.ai.yk.common.cache;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -9,8 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.ai.opt.sdk.cache.base.AbstractCache;
-import com.ai.yc.common.dao.mapper.bo.GnServiceNum;
-import com.ai.yc.common.service.atom.servicenum.IServiceNumAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnServiceNum;
+import com.ai.yk.common.service.atom.servicenum.IServiceNumAtomSV;
 
 //@Component
 public class GnServiceNumCache extends AbstractCache {

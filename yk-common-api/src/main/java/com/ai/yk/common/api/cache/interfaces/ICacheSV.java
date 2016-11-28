@@ -1,4 +1,5 @@
-package com.ai.yc.common.api.cache.interfaces;
+package com.ai.yk.common.api.cache.interfaces;
+
 
 import java.util.List;
 
@@ -8,14 +9,15 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.omg.CORBA.SystemException;
+
 import com.ai.opt.base.exception.BusinessException;
-import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.cache.param.Area;
-import com.ai.yc.common.api.cache.param.PhoneCond;
-import com.ai.yc.common.api.cache.param.ServiceNumCache;
-import com.ai.yc.common.api.cache.param.SysParam;
-import com.ai.yc.common.api.cache.param.SysParamMultiCond;
-import com.ai.yc.common.api.cache.param.SysParamSingleCond;
+import com.ai.yk.common.api.cache.param.Area;
+import com.ai.yk.common.api.cache.param.PhoneCond;
+import com.ai.yk.common.api.cache.param.ServiceNumCache;
+import com.ai.yk.common.api.cache.param.SysParam;
+import com.ai.yk.common.api.cache.param.SysParamMultiCond;
+import com.ai.yk.common.api.cache.param.SysParamSingleCond;
 
 /**
  * 公共中心缓存读取服务<br>

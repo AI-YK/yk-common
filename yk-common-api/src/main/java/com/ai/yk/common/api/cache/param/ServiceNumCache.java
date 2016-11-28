@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.cache.param;
+package com.ai.yk.common.api.cache.param;
 
 import java.io.Serializable;
 

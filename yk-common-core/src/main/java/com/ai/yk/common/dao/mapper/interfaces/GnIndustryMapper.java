@@ -1,11 +1,11 @@
-package com.ai.yc.common.dao.mapper.interfaces;
+package com.ai.yk.common.dao.mapper.interfaces;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.ai.yc.common.dao.mapper.bo.GnIndustry;
-import com.ai.yc.common.dao.mapper.bo.GnIndustryCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnIndustry;
+import com.ai.yk.common.dao.mapper.bo.GnIndustryCriteria;
 
 public interface GnIndustryMapper {
     int countByExample(GnIndustryCriteria example);

@@ -6,20 +6,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ai.yc.common.api.sysconfig.interfaces.IQuerySysConfigSV;
-import com.ai.yc.common.api.sysconfig.param.CommissionConfig;
-import com.ai.yc.common.api.sysconfig.param.DonateIntegralConfig;
-import com.ai.yc.common.api.sysconfig.param.HomeDataEidtConfig;
-import com.ai.yc.common.api.sysconfig.param.MemberConfig;
-import com.ai.yc.common.api.sysdomain.interfaces.IQuerySysDomainSV;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainDetailsRes;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainListRes;
-import com.ai.yc.common.api.sysduad.interfaces.IQuerySysDuadSV;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadDetailsRes;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListReq;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListRes;
-import com.ai.yc.common.api.syspurpose.interfaces.IQuerySysPurposeSV;
-import com.ai.yc.common.api.syspurpose.param.QuerySysPurposeListRes;
+import com.ai.yk.common.api.sysconfig.interfaces.IQuerySysConfigSV;
+import com.ai.yk.common.api.sysconfig.param.CommissionConfig;
+import com.ai.yk.common.api.sysconfig.param.DonateIntegralConfig;
+import com.ai.yk.common.api.sysconfig.param.HomeDataEidtConfig;
+import com.ai.yk.common.api.sysconfig.param.MemberConfig;
+import com.ai.yk.common.api.sysdomain.interfaces.IQuerySysDomainSV;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainDetailsRes;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainListRes;
+import com.ai.yk.common.api.sysduad.interfaces.IQuerySysDuadSV;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadDetailsRes;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListReq;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListRes;
+import com.ai.yk.common.api.syspurpose.interfaces.IQuerySysPurposeSV;
+import com.ai.yk.common.api.syspurpose.param.QuerySysPurposeListRes;
 import com.google.gson.Gson;
 
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subject.interfaces;
+package com.ai.yk.common.api.subject.interfaces;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.subject.param.Subject;
-import com.ai.yc.common.api.subject.param.SubjectFund;
-import com.ai.yc.common.api.subject.param.SubjectIdParam;
-import com.ai.yc.common.api.subject.param.SubjectTypeParam;
+import com.ai.yk.common.api.subject.param.Subject;
+import com.ai.yk.common.api.subject.param.SubjectFund;
+import com.ai.yk.common.api.subject.param.SubjectIdParam;
+import com.ai.yk.common.api.subject.param.SubjectTypeParam;
 /**
  * 
  *科目查询服务

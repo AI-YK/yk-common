@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.area.param;
+package com.ai.yk.common.api.area.param;
 
 import java.io.Serializable;
 

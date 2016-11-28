@@ -1,15 +1,15 @@
-package com.ai.yc.common.service.atom.sysduad.impl;
+package com.ai.yk.common.service.atom.sysduad.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
-import com.ai.yc.common.dao.mapper.bo.SysDuadCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.sysduad.ISysDuadAtomSV;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.dao.mapper.bo.SysDuadCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.sysduad.ISysDuadAtomSV;
 
 /**
  * @author hougang@asiainfo.com

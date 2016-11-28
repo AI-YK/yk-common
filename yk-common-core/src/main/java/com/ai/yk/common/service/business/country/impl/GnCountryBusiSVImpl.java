@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ai.yc.common.service.business.country.impl;
+package com.ai.yk.common.service.business.country.impl;
 
 import java.util.List;
 
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.country.param.CountryRequest;
-import com.ai.yc.common.dao.mapper.bo.GnCountry;
-import com.ai.yc.common.dao.mapper.bo.GnCountryCriteria;
-import com.ai.yc.common.service.atom.country.IGnCountryAtomSV;
-import com.ai.yc.common.service.business.country.IGnCountryBusiSV;
+import com.ai.yk.common.api.country.param.CountryRequest;
+import com.ai.yk.common.dao.mapper.bo.GnCountry;
+import com.ai.yk.common.dao.mapper.bo.GnCountryCriteria;
+import com.ai.yk.common.service.atom.country.IGnCountryAtomSV;
+import com.ai.yk.common.service.business.country.IGnCountryBusiSV;
 
 /**
  * <br>

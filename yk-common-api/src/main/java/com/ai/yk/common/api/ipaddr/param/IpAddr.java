@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.ipaddr.param;
+package com.ai.yk.common.api.ipaddr.param;
 
 import java.io.Serializable;
 

@@ -1,10 +1,10 @@
-package com.ai.yc.common.api.country.param;
+package com.ai.yk.common.api.country.param;
 
 import java.io.Serializable;
 
 public class CountryVo implements Serializable {
 	/**
-	 * 
+	 *  
 	 */
 	private static final long serialVersionUID = 7393030180246845071L;
 	/**

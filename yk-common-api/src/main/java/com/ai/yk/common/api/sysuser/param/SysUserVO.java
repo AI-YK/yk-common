@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysuser.param;
+package com.ai.yk.common.api.sysuser.param;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

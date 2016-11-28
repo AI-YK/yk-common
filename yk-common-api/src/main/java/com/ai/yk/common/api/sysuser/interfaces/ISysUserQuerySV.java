@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysuser.interfaces;
+package com.ai.yk.common.api.sysuser.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,12 +8,12 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeResponse;
 
 @Path("/userservice")
 @Consumes({ MediaType.APPLICATION_JSON })

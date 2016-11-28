@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.office;
+package com.ai.yk.common.service.atom.office;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysOffice;
+import com.ai.yk.common.dao.mapper.bo.SysOffice;
 
 public interface ISysOfficeAtomService {
 	

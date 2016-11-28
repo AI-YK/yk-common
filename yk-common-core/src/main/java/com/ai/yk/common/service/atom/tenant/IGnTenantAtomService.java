@@ -1,10 +1,10 @@
-package com.ai.yc.common.service.atom.tenant;
+package com.ai.yk.common.service.atom.tenant;
 
 import java.util.List;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
 
 public interface IGnTenantAtomService {
 	/**

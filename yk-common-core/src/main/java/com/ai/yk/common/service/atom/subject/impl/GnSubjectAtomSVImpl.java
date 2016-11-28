@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.subject.impl;
+package com.ai.yk.common.service.atom.subject.impl;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.vo.PageInfo;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.dao.mapper.bo.GnSubject;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectCriteria;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectKey;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.dao.mapper.interfaces.GnSubjectMapper;
-import com.ai.yc.common.service.atom.subject.IGnSubjectAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnSubject;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectKey;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.dao.mapper.interfaces.GnSubjectMapper;
+import com.ai.yk.common.service.atom.subject.IGnSubjectAtomSV;
 
 @Component
 public class GnSubjectAtomSVImpl implements IGnSubjectAtomSV {

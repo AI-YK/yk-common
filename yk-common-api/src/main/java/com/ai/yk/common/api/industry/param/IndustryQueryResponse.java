@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.industry.param;
+package com.ai.yk.common.api.industry.param;
 
 import com.ai.opt.base.vo.BaseResponse;
 

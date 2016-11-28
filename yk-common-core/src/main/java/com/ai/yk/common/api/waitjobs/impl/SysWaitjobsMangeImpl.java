@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.waitjobs.impl;
+package com.ai.yk.common.api.waitjobs.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -6,12 +6,12 @@ import org.springframework.stereotype.Component;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.BaseResponse;
-import com.ai.yc.common.api.waitjobs.interfaces.ISysWaitjobsMangeSV;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsCompleteRequset;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertResponse;
-import com.ai.yc.common.service.business.waitjobs.ISysWaitjobsBusinessService;
-import com.ai.yc.common.util.SystemValidateUtil;
+import com.ai.yk.common.api.waitjobs.interfaces.ISysWaitjobsMangeSV;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsCompleteRequset;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertResponse;
+import com.ai.yk.common.service.business.waitjobs.ISysWaitjobsBusinessService;
+import com.ai.yk.common.util.SystemValidateUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

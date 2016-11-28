@@ -25,7 +25,7 @@
 
 	<dubbo:monitor protocol="registry" />
 
-    <dubbo:annotation package="com.ai.yc.common"/>
+    <dubbo:annotation package="com.ai.yk.common"/>
 
     <import resource="../../context/core-context.xml"/>
 </beans>

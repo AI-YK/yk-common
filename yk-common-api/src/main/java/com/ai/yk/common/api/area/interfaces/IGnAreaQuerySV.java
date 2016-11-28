@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.area.interfaces;
+package com.ai.yk.common.api.area.interfaces;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import javax.ws.rs.core.MediaType;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.PageInfo;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
 
 /**
  * 区域查询服务<br>

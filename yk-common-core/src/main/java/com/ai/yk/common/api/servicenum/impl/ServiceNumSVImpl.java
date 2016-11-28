@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.servicenum.impl;
+package com.ai.yk.common.api.servicenum.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.servicenum.interfaces.IServiceNumSV;
-import com.ai.yc.common.api.servicenum.param.ServiceNum;
-import com.ai.yc.common.api.servicenum.param.ServiceNumResponse;
-import com.ai.yc.common.api.servicenum.param.ServicePhoneCond;
-import com.ai.yc.common.service.business.servicenum.IServiceNumBusiSV;
-import com.ai.yc.common.util.ServiceNumCacheUtil;
-import com.ai.yc.common.util.VoValidateUtils;
+import com.ai.yk.common.api.servicenum.interfaces.IServiceNumSV;
+import com.ai.yk.common.api.servicenum.param.ServiceNum;
+import com.ai.yk.common.api.servicenum.param.ServiceNumResponse;
+import com.ai.yk.common.api.servicenum.param.ServicePhoneCond;
+import com.ai.yk.common.service.business.servicenum.IServiceNumBusiSV;
+import com.ai.yk.common.util.ServiceNumCacheUtil;
+import com.ai.yk.common.util.VoValidateUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 

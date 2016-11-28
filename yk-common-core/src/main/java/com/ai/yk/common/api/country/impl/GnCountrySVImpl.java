@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ai.yc.common.api.country.impl;
+package com.ai.yk.common.api.country.impl;
 
 import java.util.List;
 
@@ -13,13 +13,13 @@ import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.api.country.interfaces.IGnCountrySV;
-import com.ai.yc.common.api.country.param.CountryRequest;
-import com.ai.yc.common.api.country.param.CountryResponse;
-import com.ai.yc.common.api.country.param.CountryVo;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.GnCountry;
-import com.ai.yc.common.service.business.country.IGnCountryBusiSV;
+import com.ai.yk.common.api.country.interfaces.IGnCountrySV;
+import com.ai.yk.common.api.country.param.CountryRequest;
+import com.ai.yk.common.api.country.param.CountryResponse;
+import com.ai.yk.common.api.country.param.CountryVo;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.GnCountry;
+import com.ai.yk.common.service.business.country.IGnCountryBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 

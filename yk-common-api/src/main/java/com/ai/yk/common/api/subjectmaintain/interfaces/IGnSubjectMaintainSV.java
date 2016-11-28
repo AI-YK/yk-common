@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subjectmaintain.interfaces;
+package com.ai.yk.common.api.subjectmaintain.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -9,10 +9,10 @@ import javax.ws.rs.core.MediaType;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.PageInfo;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectCondition;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectFundVo;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectKeyParam;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectVo;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectCondition;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectFundVo;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectKeyParam;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectVo;
 
 @Path("/subjectmaintain")
 @Consumes({ MediaType.APPLICATION_JSON })

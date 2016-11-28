@@ -7,13 +7,13 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.ai.paas.ipaas.util.JSonUtil;
-import com.ai.yc.common.api.sysuser.interfaces.ISysUserQuerySV;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeResponse;
+import com.ai.yk.common.api.sysuser.interfaces.ISysUserQuerySV;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeResponse;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({ "/context/core-context.xml" })

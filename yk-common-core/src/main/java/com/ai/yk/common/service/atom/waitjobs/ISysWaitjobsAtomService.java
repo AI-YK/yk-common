@@ -1,6 +1,6 @@
-package com.ai.yc.common.service.atom.waitjobs;
+package com.ai.yk.common.service.atom.waitjobs;
 
-import com.ai.yc.common.dao.mapper.bo.SysWaitjobs;
+import com.ai.yk.common.dao.mapper.bo.SysWaitjobs;
 
 public interface ISysWaitjobsAtomService {
 	

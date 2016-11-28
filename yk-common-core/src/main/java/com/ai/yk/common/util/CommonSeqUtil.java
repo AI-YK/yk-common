@@ -1,8 +1,8 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 
 import com.ai.opt.sdk.components.sequence.util.SeqUtil;
-import com.ai.yc.common.constants.Constants;
+import com.ai.yk.common.constants.Constants;
 
 
  /**

@@ -1,11 +1,11 @@
-package com.ai.yc.common.service.business.sysconfig.impl;
+package com.ai.yk.common.service.business.sysconfig.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ai.yc.common.dao.mapper.bo.SysConfig;
-import com.ai.yc.common.service.atom.sysconfig.ISysConfigAtomSV;
-import com.ai.yc.common.service.business.sysconfig.IQuerySysConfigBusiSV;
+import com.ai.yk.common.dao.mapper.bo.SysConfig;
+import com.ai.yk.common.service.atom.sysconfig.ISysConfigAtomSV;
+import com.ai.yk.common.service.business.sysconfig.IQuerySysConfigBusiSV;
 
 /**
  * @author hougang@asiainfo.com

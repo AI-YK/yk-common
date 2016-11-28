@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.servicenum.param;
+package com.ai.yk.common.api.servicenum.param;
 
 import java.io.Serializable;
 

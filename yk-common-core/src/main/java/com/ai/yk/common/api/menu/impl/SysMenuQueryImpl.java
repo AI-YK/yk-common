@@ -1,15 +1,15 @@
-package com.ai.yc.common.api.menu.impl;
+package com.ai.yk.common.api.menu.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.menu.interfaces.ISysMenuQuerySV;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryRequest;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryResponse;
-import com.ai.yc.common.service.business.menu.ISysMenuBusinessService;
-import com.ai.yc.common.util.SystemValidateUtil;
+import com.ai.yk.common.api.menu.interfaces.ISysMenuQuerySV;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryRequest;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryResponse;
+import com.ai.yk.common.service.business.menu.ISysMenuBusinessService;
+import com.ai.yk.common.util.SystemValidateUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

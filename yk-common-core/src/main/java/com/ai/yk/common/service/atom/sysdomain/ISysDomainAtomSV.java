@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.sysdomain;
+package com.ai.yk.common.service.atom.sysdomain;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysDomain;
+import com.ai.yk.common.dao.mapper.bo.SysDomain;
 
 /**
  * @author hougang@asiainfo.com

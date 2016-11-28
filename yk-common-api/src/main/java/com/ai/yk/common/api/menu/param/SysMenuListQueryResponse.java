@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.menu.param;
+package com.ai.yk.common.api.menu.param;
 
 import java.util.List;
 

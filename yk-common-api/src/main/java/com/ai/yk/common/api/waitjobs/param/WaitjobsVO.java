@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.waitjobs.param;
+package com.ai.yk.common.api.waitjobs.param;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.syspurpose.param;
+package com.ai.yk.common.api.syspurpose.param;
 
 import java.io.Serializable;
 

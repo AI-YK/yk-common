@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.country.interfaces;
+package com.ai.yk.common.api.country.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.country.param.CountryRequest;
-import com.ai.yc.common.api.country.param.CountryResponse;
+import com.ai.yk.common.api.country.param.CountryRequest;
+import com.ai.yk.common.api.country.param.CountryResponse;
 
 /**
  * 公共域-国家查询<br>

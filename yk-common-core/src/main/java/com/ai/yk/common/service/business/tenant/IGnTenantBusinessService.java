@@ -1,10 +1,10 @@
-package com.ai.yc.common.service.business.tenant;
+package com.ai.yk.common.service.business.tenant;
 
 import java.util.List;
 
-import com.ai.yc.common.api.tenant.param.GnTenantConditon;
-import com.ai.yc.common.api.tenant.param.GnTenantVo;
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.api.tenant.param.GnTenantConditon;
+import com.ai.yk.common.api.tenant.param.GnTenantVo;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
 
 public interface IGnTenantBusinessService {
 

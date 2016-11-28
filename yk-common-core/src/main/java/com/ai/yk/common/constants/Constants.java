@@ -1,4 +1,4 @@
-package com.ai.yc.common.constants;
+package com.ai.yk.common.constants;
 
 /**
  * Created by astraea on 2015/7/27.

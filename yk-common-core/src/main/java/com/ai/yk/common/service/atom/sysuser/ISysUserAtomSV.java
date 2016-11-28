@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.sysuser;
+package com.ai.yk.common.service.atom.sysuser;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysUser;
+import com.ai.yk.common.dao.mapper.bo.SysUser;
 
 public interface ISysUserAtomSV {
 	SysUser queryUser(SysUser user);

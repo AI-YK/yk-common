@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.sysuser.impl;
+package com.ai.yk.common.service.atom.sysuser.impl;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.constants.VOConstants.DeleteFlagConstant;
-import com.ai.yc.common.dao.mapper.bo.SysUser;
-import com.ai.yc.common.dao.mapper.bo.SysUserCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.dao.mapper.interfaces.SysUserMapper;
-import com.ai.yc.common.service.atom.sysuser.ISysUserAtomSV;
+import com.ai.yk.common.constants.VOConstants.DeleteFlagConstant;
+import com.ai.yk.common.dao.mapper.bo.SysUser;
+import com.ai.yk.common.dao.mapper.bo.SysUserCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.dao.mapper.interfaces.SysUserMapper;
+import com.ai.yk.common.service.atom.sysuser.ISysUserAtomSV;
 
 @Component
 public class SysUserAtomSVImpl implements ISysUserAtomSV {

@@ -1,4 +1,4 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import com.ai.opt.sdk.components.mcs.MCSClientFactory;
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;

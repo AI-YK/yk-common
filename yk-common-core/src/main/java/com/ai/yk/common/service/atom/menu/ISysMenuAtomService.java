@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.menu;
+package com.ai.yk.common.service.atom.menu;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysMenu;
+import com.ai.yk.common.dao.mapper.bo.SysMenu;
 
 public interface ISysMenuAtomService {
 	

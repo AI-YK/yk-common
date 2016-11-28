@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subject.impl;
+package com.ai.yk.common.api.subject.impl;
 
 import java.util.List;
 
@@ -9,12 +9,12 @@ import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.subject.interfaces.IFunSettleRuleSV;
-import com.ai.yc.common.api.subject.param.FunSettleRule;
-import com.ai.yc.common.api.subject.param.SubjectIdParam;
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
-import com.ai.yc.common.service.business.tenant.IGnTenantBusinessService;
-import com.ai.yc.common.util.GnSubjectUtil;
+import com.ai.yk.common.api.subject.interfaces.IFunSettleRuleSV;
+import com.ai.yk.common.api.subject.param.FunSettleRule;
+import com.ai.yk.common.api.subject.param.SubjectIdParam;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.service.business.tenant.IGnTenantBusinessService;
+import com.ai.yk.common.util.GnSubjectUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

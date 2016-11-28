@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.area.impl;
+package com.ai.yk.common.service.atom.area.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,18 +11,18 @@ import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.PageInfo;
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.area.param.AreaLevel;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
-import com.ai.yc.common.dao.mapper.bo.GnAreaCriteria;
-import com.ai.yc.common.dao.mapper.bo.GnAreaCriteria.Criteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.dao.mapper.interfaces.GnAreaMapper;
-import com.ai.yc.common.service.atom.area.IGnAreaAtomService;
+import com.ai.yk.common.api.area.param.AreaLevel;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.dao.mapper.bo.GnAreaCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnAreaCriteria.Criteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.dao.mapper.interfaces.GnAreaMapper;
+import com.ai.yk.common.service.atom.area.IGnAreaAtomService;
 
 @Component
 public class GnAreaAtomServiceImpl implements IGnAreaAtomService {

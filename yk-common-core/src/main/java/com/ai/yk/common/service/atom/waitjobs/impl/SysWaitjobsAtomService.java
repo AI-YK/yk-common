@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.waitjobs.impl;
+package com.ai.yk.common.service.atom.waitjobs.impl;
 
 import java.sql.Timestamp;
 
@@ -7,12 +7,12 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.components.sequence.util.SeqUtil;
 import com.ai.opt.sdk.util.DateUtil;
-import com.ai.yc.common.constants.VOConstants.WaitjobsStatusConstant;
-import com.ai.yc.common.dao.mapper.bo.SysWaitjobs;
-import com.ai.yc.common.dao.mapper.bo.SysWaitjobsCriteria;
-import com.ai.yc.common.dao.mapper.bo.SysWaitjobsCriteria.Criteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.waitjobs.ISysWaitjobsAtomService;
+import com.ai.yk.common.constants.VOConstants.WaitjobsStatusConstant;
+import com.ai.yk.common.dao.mapper.bo.SysWaitjobs;
+import com.ai.yk.common.dao.mapper.bo.SysWaitjobsCriteria;
+import com.ai.yk.common.dao.mapper.bo.SysWaitjobsCriteria.Criteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.waitjobs.ISysWaitjobsAtomService;
 
 @Component
 public class SysWaitjobsAtomService implements ISysWaitjobsAtomService{

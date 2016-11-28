@@ -1,9 +1,9 @@
-package com.ai.yc.common.service.atom.idustry;
+package com.ai.yk.common.service.atom.idustry;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.GnIndustry;
-import com.ai.yc.common.dao.mapper.bo.GnIndustryCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnIndustry;
+import com.ai.yk.common.dao.mapper.bo.GnIndustryCriteria;
 
 public interface IIdustryAtomSV {
 

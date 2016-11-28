@@ -1,12 +1,12 @@
-package com.ai.yc.common.dao.mapper.interfaces;
+package com.ai.yk.common.dao.mapper.interfaces;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.ai.yc.common.dao.mapper.bo.GnSubject;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectCriteria;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectKey;
+import com.ai.yk.common.dao.mapper.bo.GnSubject;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectKey;
 
 public interface GnSubjectMapper {
     int countByExample(GnSubjectCriteria example);

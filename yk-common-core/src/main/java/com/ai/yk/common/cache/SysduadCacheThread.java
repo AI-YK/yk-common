@@ -1,14 +1,14 @@
-package com.ai.yc.common.cache;
+package com.ai.yk.common.cache;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;
-import com.ai.yc.common.api.cachekey.key.CacheKey;
-import com.ai.yc.common.constants.CacheNSMapper;
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
-import com.ai.yc.common.util.CacheFactoryUtil;
-import com.ai.yc.common.util.PaaSConfUtil;
+import com.ai.yk.common.api.cachekey.key.CacheKey;
+import com.ai.yk.common.constants.CacheNSMapper;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.util.CacheFactoryUtil;
+import com.ai.yk.common.util.PaaSConfUtil;
 import com.alibaba.fastjson.JSON;
 
 public class SysduadCacheThread extends Thread {

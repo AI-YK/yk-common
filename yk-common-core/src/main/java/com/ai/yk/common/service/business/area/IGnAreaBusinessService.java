@@ -1,14 +1,14 @@
-package com.ai.yc.common.service.business.area;
+package com.ai.yk.common.service.business.area;
 
 import java.util.List;
 
 import com.ai.opt.base.vo.PageInfo;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
 
 public interface IGnAreaBusinessService {
     List<GnArea> select(GnAreaCondition condition);

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subjectmaintain.param;
+package com.ai.yk.common.api.subjectmaintain.param;
 
 import java.io.Serializable;
 

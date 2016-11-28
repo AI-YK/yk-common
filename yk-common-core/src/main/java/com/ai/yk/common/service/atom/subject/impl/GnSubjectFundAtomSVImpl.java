@@ -1,15 +1,15 @@
-package com.ai.yc.common.service.atom.subject.impl;
+package com.ai.yk.common.service.atom.subject.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFund;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFundCriteria;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFundKey;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.subject.IGnSubjectFundAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFund;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFundCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFundKey;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.subject.IGnSubjectFundAtomSV;
 
 @Component
 public class GnSubjectFundAtomSVImpl implements IGnSubjectFundAtomSV {

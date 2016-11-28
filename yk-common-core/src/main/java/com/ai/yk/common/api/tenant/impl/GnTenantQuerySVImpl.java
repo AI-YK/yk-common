@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.tenant.impl;
+package com.ai.yk.common.api.tenant.impl;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.springframework.util.StringUtils;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.tenant.interfaces.IGnTenantQuerySV;
-import com.ai.yc.common.api.tenant.param.GnTenantConditon;
-import com.ai.yc.common.api.tenant.param.GnTenantVo;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.service.business.tenant.IGnTenantBusinessService;
+import com.ai.yk.common.api.tenant.interfaces.IGnTenantQuerySV;
+import com.ai.yk.common.api.tenant.param.GnTenantConditon;
+import com.ai.yk.common.api.tenant.param.GnTenantVo;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.service.business.tenant.IGnTenantBusinessService;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.google.gson.Gson;
 

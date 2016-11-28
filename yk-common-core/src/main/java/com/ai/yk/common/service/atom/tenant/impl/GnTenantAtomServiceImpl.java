@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.tenant.impl;
+package com.ai.yk.common.service.atom.tenant.impl;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.tenant.IGnTenantAtomService;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.tenant.IGnTenantAtomService;
 
 @Component
 public class GnTenantAtomServiceImpl implements IGnTenantAtomService {

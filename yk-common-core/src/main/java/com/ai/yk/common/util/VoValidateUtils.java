@@ -1,4 +1,4 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import java.util.List;
 
@@ -7,13 +7,13 @@ import org.springframework.util.StringUtils;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.api.area.param.AreaLevel;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
-import com.ai.yc.common.api.servicenum.param.ServicePhoneCond;
+import com.ai.yk.common.api.area.param.AreaLevel;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.api.servicenum.param.ServicePhoneCond;
 
 
 public final class VoValidateUtils {

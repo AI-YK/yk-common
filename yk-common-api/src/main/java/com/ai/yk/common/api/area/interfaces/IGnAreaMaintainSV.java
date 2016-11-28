@@ -1,4 +1,5 @@
-package com.ai.yc.common.api.area.interfaces;
+package com.ai.yk.common.api.area.interfaces;
+
 
 import java.util.List;
 
@@ -8,10 +9,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.omg.CORBA.SystemException;
+
 import com.ai.opt.base.exception.BusinessException;
-import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
 
 /**
  * 公共域-小区管理类，主要功能包括新增，修改，删除小区.<br>

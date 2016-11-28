@@ -1,9 +1,9 @@
-package com.ai.yc.common.service.business.waitjobs;
+package com.ai.yk.common.service.business.waitjobs;
 
 import com.ai.opt.base.vo.BaseResponse;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsCompleteRequset;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertResponse;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsCompleteRequset;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertResponse;
 
 public interface ISysWaitjobsBusinessService {
 	

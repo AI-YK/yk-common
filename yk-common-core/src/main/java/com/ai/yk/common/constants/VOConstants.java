@@ -1,4 +1,4 @@
-package com.ai.yc.common.constants;
+package com.ai.yk.common.constants;
 
 public class VOConstants {
 	private VOConstants(){}

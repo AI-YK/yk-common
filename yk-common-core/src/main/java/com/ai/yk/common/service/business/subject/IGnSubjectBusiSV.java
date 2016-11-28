@@ -1,16 +1,16 @@
-package com.ai.yc.common.service.business.subject;
+package com.ai.yk.common.service.business.subject;
 
 import java.util.List;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.vo.PageInfo;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectCondition;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectFundVo;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectKeyParam;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectVo;
-import com.ai.yc.common.dao.mapper.bo.GnSettleRuleKey;
-import com.ai.yc.common.dao.mapper.bo.GnSubject;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFund;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectCondition;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectFundVo;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectKeyParam;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectVo;
+import com.ai.yk.common.dao.mapper.bo.GnSettleRuleKey;
+import com.ai.yk.common.dao.mapper.bo.GnSubject;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFund;
 
 /**
  * 

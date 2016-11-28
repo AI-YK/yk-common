@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.servicenum.interfaces;
+package com.ai.yk.common.api.servicenum.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,9 +8,9 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.servicenum.param.ServiceNum;
-import com.ai.yc.common.api.servicenum.param.ServiceNumResponse;
-import com.ai.yc.common.api.servicenum.param.ServicePhoneCond;
+import com.ai.yk.common.api.servicenum.param.ServiceNum;
+import com.ai.yk.common.api.servicenum.param.ServiceNumResponse;
+import com.ai.yk.common.api.servicenum.param.ServicePhoneCond;
 /**
  * 手机号码段服务
  *

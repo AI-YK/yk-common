@@ -1,12 +1,12 @@
-package com.ai.yc.common.api.ipaddr.impl;
+package com.ai.yk.common.api.ipaddr.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ai.yc.common.api.ipaddr.interfaces.IIpAddrSV;
-import com.ai.yc.common.api.ipaddr.param.IpAddr;
-import com.ai.yc.common.service.business.ipaddr.IIpAddrBusiSV;
-import com.ai.yc.common.util.VoValidateUtils;
+import com.ai.yk.common.api.ipaddr.interfaces.IIpAddrSV;
+import com.ai.yk.common.api.ipaddr.param.IpAddr;
+import com.ai.yk.common.service.business.ipaddr.IIpAddrBusiSV;
+import com.ai.yk.common.util.VoValidateUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

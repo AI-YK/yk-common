@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.menu.interfaces;
+package com.ai.yk.common.api.menu.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryRequest;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryResponse;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryRequest;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryResponse;
 
 @Path("/menuservice")
 @Consumes({ MediaType.APPLICATION_JSON })

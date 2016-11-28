@@ -1,13 +1,13 @@
-package com.ai.yc.common.service.business.sysduad.impl;
+package com.ai.yk.common.service.business.sysduad.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
-import com.ai.yc.common.service.atom.sysduad.ISysDuadAtomSV;
-import com.ai.yc.common.service.business.sysduad.IQuerySysDuadBusiSV;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.service.atom.sysduad.ISysDuadAtomSV;
+import com.ai.yk.common.service.business.sysduad.IQuerySysDuadBusiSV;
 
 /**
  * @author hougang@asiainfo.com

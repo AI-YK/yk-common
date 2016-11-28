@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.tenant.impl;
+package com.ai.yk.common.service.business.tenant.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.api.tenant.param.GnTenantConditon;
-import com.ai.yc.common.api.tenant.param.GnTenantVo;
-import com.ai.yc.common.dao.mapper.bo.GnTenant;
-import com.ai.yc.common.service.atom.tenant.IGnTenantAtomService;
-import com.ai.yc.common.service.business.tenant.IGnTenantBusinessService;
+import com.ai.yk.common.api.tenant.param.GnTenantConditon;
+import com.ai.yk.common.api.tenant.param.GnTenantVo;
+import com.ai.yk.common.dao.mapper.bo.GnTenant;
+import com.ai.yk.common.service.atom.tenant.IGnTenantAtomService;
+import com.ai.yk.common.service.business.tenant.IGnTenantBusinessService;
 
 @Component
 @Transactional

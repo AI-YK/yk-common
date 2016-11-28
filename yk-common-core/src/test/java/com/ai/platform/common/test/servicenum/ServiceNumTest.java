@@ -8,15 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ai.yc.common.api.cache.interfaces.ICacheSV;
-import com.ai.yc.common.api.cache.param.PhoneCond;
-import com.ai.yc.common.api.cache.param.ServiceNumCache;
-import com.ai.yc.common.api.servicenum.interfaces.IServiceNumSV;
-import com.ai.yc.common.api.servicenum.param.ServiceNum;
-import com.ai.yc.common.api.servicenum.param.ServiceNumResponse;
-import com.ai.yc.common.api.servicenum.param.ServicePhoneCond;
-import com.ai.yc.common.dao.mapper.bo.GnServiceNum;
-import com.ai.yc.common.service.atom.servicenum.IServiceNumAtomSV;
+import com.ai.yk.common.api.cache.interfaces.ICacheSV;
+import com.ai.yk.common.api.cache.param.PhoneCond;
+import com.ai.yk.common.api.cache.param.ServiceNumCache;
+import com.ai.yk.common.api.servicenum.interfaces.IServiceNumSV;
+import com.ai.yk.common.api.servicenum.param.ServiceNum;
+import com.ai.yk.common.api.servicenum.param.ServiceNumResponse;
+import com.ai.yk.common.api.servicenum.param.ServicePhoneCond;
+import com.ai.yk.common.dao.mapper.bo.GnServiceNum;
+import com.ai.yk.common.service.atom.servicenum.IServiceNumAtomSV;
 import com.alibaba.fastjson.JSON;
 
 @RunWith(SpringJUnit4ClassRunner.class)

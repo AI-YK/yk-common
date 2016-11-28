@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.syspurpose;
+package com.ai.yk.common.service.atom.syspurpose;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysPurpose;
+import com.ai.yk.common.dao.mapper.bo.SysPurpose;
 
 /**
  * @author hougang@asiainfo.com

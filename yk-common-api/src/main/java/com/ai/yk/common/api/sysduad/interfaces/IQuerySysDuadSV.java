@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysduad.interfaces;
+package com.ai.yk.common.api.sysduad.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,9 +8,9 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadDetailsRes;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListReq;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListRes;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadDetailsRes;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListReq;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListRes;
 
 /**
  * @Description: 语言对查询服务

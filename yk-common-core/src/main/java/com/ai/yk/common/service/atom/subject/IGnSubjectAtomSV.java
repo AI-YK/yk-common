@@ -1,11 +1,11 @@
-package com.ai.yc.common.service.atom.subject;
+package com.ai.yk.common.service.atom.subject;
 
 import java.util.List;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.vo.PageInfo;
-import com.ai.yc.common.dao.mapper.bo.GnSubject;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectKey;
+import com.ai.yk.common.dao.mapper.bo.GnSubject;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectKey;
 
 /**
  * 科目编码 原子服务 Date: 2015年8月19日 <br>

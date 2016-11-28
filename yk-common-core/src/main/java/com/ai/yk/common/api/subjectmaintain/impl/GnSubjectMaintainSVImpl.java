@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subjectmaintain.impl;
+package com.ai.yk.common.api.subjectmaintain.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -9,14 +9,14 @@ import com.ai.opt.base.vo.PageInfo;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.subjectmaintain.interfaces.IGnSubjectMaintainSV;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectCondition;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectFundVo;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectKeyParam;
-import com.ai.yc.common.api.subjectmaintain.param.GnSubjectVo;
-import com.ai.yc.common.dao.mapper.bo.GnSubject;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFund;
-import com.ai.yc.common.service.business.subject.IGnSubjectBusiSV;
+import com.ai.yk.common.api.subjectmaintain.interfaces.IGnSubjectMaintainSV;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectCondition;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectFundVo;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectKeyParam;
+import com.ai.yk.common.api.subjectmaintain.param.GnSubjectVo;
+import com.ai.yk.common.dao.mapper.bo.GnSubject;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFund;
+import com.ai.yk.common.service.business.subject.IGnSubjectBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

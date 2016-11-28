@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysconfig.interfaces;
+package com.ai.yk.common.api.sysconfig.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,10 +8,10 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.sysconfig.param.CommissionConfig;
-import com.ai.yc.common.api.sysconfig.param.DonateIntegralConfig;
-import com.ai.yc.common.api.sysconfig.param.HomeDataEidtConfig;
-import com.ai.yc.common.api.sysconfig.param.MemberConfig;
+import com.ai.yk.common.api.sysconfig.param.CommissionConfig;
+import com.ai.yk.common.api.sysconfig.param.DonateIntegralConfig;
+import com.ai.yk.common.api.sysconfig.param.HomeDataEidtConfig;
+import com.ai.yk.common.api.sysconfig.param.MemberConfig;
 
 /**
  * @Description: 会员基本配置查询服务

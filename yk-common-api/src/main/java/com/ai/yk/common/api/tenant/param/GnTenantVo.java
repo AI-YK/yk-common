@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.tenant.param;
+package com.ai.yk.common.api.tenant.param;
 
 import java.io.Serializable;
 

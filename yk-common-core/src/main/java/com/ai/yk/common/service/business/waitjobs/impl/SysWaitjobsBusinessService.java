@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.waitjobs.impl;
+package com.ai.yk.common.service.business.waitjobs.impl;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,14 +8,14 @@ import org.springframework.transaction.annotation.Transactional;
 import com.ai.opt.base.vo.BaseResponse;
 import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.util.BeanUtils;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsCompleteRequset;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertResponse;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsVO;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysWaitjobs;
-import com.ai.yc.common.service.atom.waitjobs.ISysWaitjobsAtomService;
-import com.ai.yc.common.service.business.waitjobs.ISysWaitjobsBusinessService;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsCompleteRequset;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertResponse;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsVO;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysWaitjobs;
+import com.ai.yk.common.service.atom.waitjobs.ISysWaitjobsAtomService;
+import com.ai.yk.common.service.business.waitjobs.ISysWaitjobsBusinessService;
 
 @Service
 @Transactional

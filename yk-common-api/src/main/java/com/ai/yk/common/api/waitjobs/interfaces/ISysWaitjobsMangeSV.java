@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.waitjobs.interfaces;
+package com.ai.yk.common.api.waitjobs.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -9,9 +9,9 @@ import javax.ws.rs.core.MediaType;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.BaseResponse;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsCompleteRequset;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertResponse;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsCompleteRequset;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertResponse;
 
 @Path("/waitjobsservice")
 @Consumes({ MediaType.APPLICATION_JSON })

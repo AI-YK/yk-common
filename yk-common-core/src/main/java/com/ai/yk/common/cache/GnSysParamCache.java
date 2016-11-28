@@ -1,4 +1,4 @@
-package com.ai.yc.common.cache;
+package com.ai.yk.common.cache;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 import com.ai.opt.sdk.cache.base.AbstractCache;
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;
-import com.ai.yc.common.api.cache.param.SysParam;
-import com.ai.yc.common.constants.CacheNSMapper;
-import com.ai.yc.common.dao.mapper.bo.GnSysParam;
-import com.ai.yc.common.dao.mapper.bo.GnSysParamCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.util.CacheFactoryUtil;
-import com.ai.yc.common.util.PaaSConfUtil;
+import com.ai.yk.common.api.cache.param.SysParam;
+import com.ai.yk.common.constants.CacheNSMapper;
+import com.ai.yk.common.dao.mapper.bo.GnSysParam;
+import com.ai.yk.common.dao.mapper.bo.GnSysParamCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.util.CacheFactoryUtil;
+import com.ai.yk.common.util.PaaSConfUtil;
 import com.alibaba.fastjson.JSON;
 
 @Component

@@ -1,19 +1,19 @@
-package com.ai.yc.common.api.sysuser.impl;
+package com.ai.yk.common.api.sysuser.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.sysuser.interfaces.ISysUserQuerySV;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeResponse;
-import com.ai.yc.common.service.business.sysuser.ISysUserBusiSV;
-import com.ai.yc.common.util.SystemValidateUtil;
+import com.ai.yk.common.api.sysuser.interfaces.ISysUserQuerySV;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeResponse;
+import com.ai.yk.common.service.business.sysuser.ISysUserBusiSV;
+import com.ai.yk.common.util.SystemValidateUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.cache.impl;
+package com.ai.yk.common.api.cache.impl;
 
 import java.util.List;
 
@@ -10,18 +10,18 @@ import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.cache.interfaces.ICacheSV;
-import com.ai.yc.common.api.cache.param.Area;
-import com.ai.yc.common.api.cache.param.PhoneCond;
-import com.ai.yc.common.api.cache.param.ServiceNumCache;
-import com.ai.yc.common.api.cache.param.SysParam;
-import com.ai.yc.common.api.cache.param.SysParamMultiCond;
-import com.ai.yc.common.api.cache.param.SysParamSingleCond;
-import com.ai.yc.common.api.servicenum.param.ServiceNum;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.util.AreaCacheUtil;
-import com.ai.yc.common.util.ServiceNumCacheUtil;
-import com.ai.yc.common.util.SysParamUtil;
+import com.ai.yk.common.api.cache.interfaces.ICacheSV;
+import com.ai.yk.common.api.cache.param.Area;
+import com.ai.yk.common.api.cache.param.PhoneCond;
+import com.ai.yk.common.api.cache.param.ServiceNumCache;
+import com.ai.yk.common.api.cache.param.SysParam;
+import com.ai.yk.common.api.cache.param.SysParamMultiCond;
+import com.ai.yk.common.api.cache.param.SysParamSingleCond;
+import com.ai.yk.common.api.servicenum.param.ServiceNum;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.util.AreaCacheUtil;
+import com.ai.yk.common.util.ServiceNumCacheUtil;
+import com.ai.yk.common.util.SysParamUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

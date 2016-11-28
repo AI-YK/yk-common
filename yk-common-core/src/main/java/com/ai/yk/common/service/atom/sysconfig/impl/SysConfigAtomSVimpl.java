@@ -1,14 +1,14 @@
-package com.ai.yc.common.service.atom.sysconfig.impl;
+package com.ai.yk.common.service.atom.sysconfig.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.dao.mapper.bo.SysConfig;
-import com.ai.yc.common.dao.mapper.bo.SysConfigCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.sysconfig.ISysConfigAtomSV;
+import com.ai.yk.common.dao.mapper.bo.SysConfig;
+import com.ai.yk.common.dao.mapper.bo.SysConfigCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.sysconfig.ISysConfigAtomSV;
 
 /**
  * @author hougang@asiainfo.com

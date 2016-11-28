@@ -1,4 +1,4 @@
-package com.ai.yc.common.cache;
+package com.ai.yk.common.cache;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.cache.base.AbstractCache;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
-import com.ai.yc.common.service.atom.area.IGnAreaAtomService;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.service.atom.area.IGnAreaAtomService;
 
 @Component
 public class GnAreaCache extends AbstractCache {

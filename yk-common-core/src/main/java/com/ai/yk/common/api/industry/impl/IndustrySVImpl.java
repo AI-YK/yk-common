@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.industry.impl;
+package com.ai.yk.common.api.industry.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.industry.interfaces.IIndustrySV;
-import com.ai.yc.common.api.industry.param.IndustryQueryResponse;
-import com.ai.yc.common.service.business.industry.IIndustryBusiSV;
+import com.ai.yk.common.api.industry.interfaces.IIndustrySV;
+import com.ai.yk.common.api.industry.param.IndustryQueryResponse;
+import com.ai.yk.common.service.business.industry.IIndustryBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

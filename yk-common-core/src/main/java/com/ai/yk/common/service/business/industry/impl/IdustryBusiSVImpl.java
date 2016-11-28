@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.industry.impl;
+package com.ai.yk.common.service.business.industry.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.industry.param.IndustryQueryResponse;
-import com.ai.yc.common.dao.mapper.bo.GnIndustry;
-import com.ai.yc.common.service.atom.idustry.IIdustryAtomSV;
-import com.ai.yc.common.service.business.industry.IIndustryBusiSV;
+import com.ai.yk.common.api.industry.param.IndustryQueryResponse;
+import com.ai.yk.common.dao.mapper.bo.GnIndustry;
+import com.ai.yk.common.service.atom.idustry.IIdustryAtomSV;
+import com.ai.yk.common.service.business.industry.IIndustryBusiSV;
 
 @Component
 @Transactional

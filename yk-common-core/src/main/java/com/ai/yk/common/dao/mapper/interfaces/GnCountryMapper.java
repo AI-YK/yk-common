@@ -1,7 +1,7 @@
-package com.ai.yc.common.dao.mapper.interfaces;
+package com.ai.yk.common.dao.mapper.interfaces;
 
-import com.ai.yc.common.dao.mapper.bo.GnCountry;
-import com.ai.yc.common.dao.mapper.bo.GnCountryCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnCountry;
+import com.ai.yk.common.dao.mapper.bo.GnCountryCriteria;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

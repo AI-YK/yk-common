@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.industry.interfaces;
+package com.ai.yk.common.api.industry.interfaces;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.industry.param.IndustryQueryResponse;
+import com.ai.yk.common.api.industry.param.IndustryQueryResponse;
 
 @Path("/industryservice")
 @Consumes({ MediaType.APPLICATION_JSON })

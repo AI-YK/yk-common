@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.tenant.interfaces;
+package com.ai.yk.common.api.tenant.interfaces;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.tenant.param.GnTenantConditon;
-import com.ai.yc.common.api.tenant.param.GnTenantVo;
+import com.ai.yk.common.api.tenant.param.GnTenantConditon;
+import com.ai.yk.common.api.tenant.param.GnTenantVo;
 
 /**
  * 租户查询<br>

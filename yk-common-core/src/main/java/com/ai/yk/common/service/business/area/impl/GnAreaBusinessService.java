@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.area.impl;
+package com.ai.yk.common.service.business.area.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,17 +12,17 @@ import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.PageInfo;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
-import com.ai.yc.common.service.atom.area.impl.GnAreaAtomServiceImpl;
-import com.ai.yc.common.service.business.area.IGnAreaBusinessService;
-import com.ai.yc.common.util.AreaCacheUtil;
-import com.ai.yc.common.util.CommonSeqUtil;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.service.atom.area.impl.GnAreaAtomServiceImpl;
+import com.ai.yk.common.service.business.area.IGnAreaBusinessService;
+import com.ai.yk.common.util.AreaCacheUtil;
+import com.ai.yk.common.util.CommonSeqUtil;
 
 @Component
 @Transactional

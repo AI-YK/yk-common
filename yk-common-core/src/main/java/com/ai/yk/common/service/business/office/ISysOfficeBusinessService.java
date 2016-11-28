@@ -1,13 +1,13 @@
-package com.ai.yc.common.service.business.office;
+package com.ai.yk.common.service.business.office;
 
 import com.ai.opt.base.vo.BaseInfo;
-import com.ai.yc.common.api.office.param.OfficeAllQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeAllQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryResponse;
 
 public interface ISysOfficeBusinessService {
 	/**

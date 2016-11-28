@@ -1,14 +1,14 @@
-package com.ai.yc.common.service.atom.servicenum.impl;
+package com.ai.yk.common.service.atom.servicenum.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.dao.mapper.bo.GnServiceNum;
-import com.ai.yc.common.dao.mapper.bo.GnServiceNumCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.servicenum.IServiceNumAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnServiceNum;
+import com.ai.yk.common.dao.mapper.bo.GnServiceNumCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.servicenum.IServiceNumAtomSV;
 
 @Component
 public class ServiceNumAtomSVImpl implements IServiceNumAtomSV {

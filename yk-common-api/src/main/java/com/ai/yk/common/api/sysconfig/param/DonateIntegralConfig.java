@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysconfig.param;
+package com.ai.yk.common.api.sysconfig.param;
 
 import com.ai.opt.base.vo.BaseResponse;
 

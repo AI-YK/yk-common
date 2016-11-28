@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.cachekey.model;
+package com.ai.yk.common.api.cachekey.model;
 
 import java.io.Serializable;
 

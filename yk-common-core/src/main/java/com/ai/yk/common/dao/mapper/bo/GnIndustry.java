@@ -1,4 +1,4 @@
-package com.ai.yc.common.dao.mapper.bo;
+package com.ai.yk.common.dao.mapper.bo;
 
 public class GnIndustry {
     private String industryCode;

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.area.impl;
+package com.ai.yk.common.api.area.impl;
 
 import java.util.List;
 
@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.area.interfaces.IGnAreaMaintainSV;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
-import com.ai.yc.common.service.business.area.IGnAreaBusinessService;
-import com.ai.yc.common.util.VoValidateUtils;
+import com.ai.yk.common.api.area.interfaces.IGnAreaMaintainSV;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.service.business.area.IGnAreaBusinessService;
+import com.ai.yk.common.util.VoValidateUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

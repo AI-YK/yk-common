@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.ipaddr.interfaces;
+package com.ai.yk.common.api.ipaddr.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.ipaddr.param.IpAddr;
+import com.ai.yk.common.api.ipaddr.param.IpAddr;
 /**
  * 依据IP地址查询归属地服务
  *

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ai.yc.common.api.country.param;
+package com.ai.yk.common.api.country.param;
 
 import com.ai.opt.base.vo.BaseInfo;
 

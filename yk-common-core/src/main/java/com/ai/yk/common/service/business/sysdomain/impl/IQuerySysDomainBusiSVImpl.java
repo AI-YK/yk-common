@@ -1,13 +1,13 @@
-package com.ai.yc.common.service.business.sysdomain.impl;
+package com.ai.yk.common.service.business.sysdomain.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ai.yc.common.dao.mapper.bo.SysDomain;
-import com.ai.yc.common.service.atom.sysdomain.ISysDomainAtomSV;
-import com.ai.yc.common.service.business.sysdomain.IQuerySysDomainBusiSV;
+import com.ai.yk.common.dao.mapper.bo.SysDomain;
+import com.ai.yk.common.service.atom.sysdomain.ISysDomainAtomSV;
+import com.ai.yk.common.service.business.sysdomain.IQuerySysDomainBusiSV;
 
 /**
  * @author hougang@asiainfo.com

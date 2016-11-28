@@ -1,12 +1,12 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.ai.opt.sdk.util.StringUtil;
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;
-import com.ai.yc.common.constants.CacheNSMapper;
-import com.ai.yc.common.constants.Constants;
+import com.ai.yk.common.constants.CacheNSMapper;
+import com.ai.yk.common.constants.Constants;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;

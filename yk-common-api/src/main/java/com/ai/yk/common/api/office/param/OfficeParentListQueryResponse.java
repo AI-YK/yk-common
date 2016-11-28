@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.office.param;
+package com.ai.yk.common.api.office.param;
 
 import java.util.List;
 

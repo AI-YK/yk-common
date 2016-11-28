@@ -1,4 +1,4 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,9 +6,9 @@ import org.springframework.util.StringUtils;
 
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.cache.param.Area;
-import com.ai.yc.common.constants.CacheNSMapper;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.api.cache.param.Area;
+import com.ai.yk.common.constants.CacheNSMapper;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
 import com.alibaba.fastjson.JSON;
 
 /**

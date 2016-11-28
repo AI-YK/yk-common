@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.subject.impl;
+package com.ai.yk.common.service.atom.subject.impl;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.GnSettleRuleCriteria;
-import com.ai.yc.common.dao.mapper.bo.GnSettleRuleKey;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.subject.IGnSettleRuleAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnSettleRuleCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnSettleRuleKey;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.subject.IGnSettleRuleAtomSV;
 
 @Component
 public class GnSettleRuleAtomSVImpl implements IGnSettleRuleAtomSV {

@@ -1,10 +1,10 @@
-package com.ai.yc.common.service.atom.subject;
+package com.ai.yk.common.service.atom.subject;
 
 import java.util.List;
 
 import com.ai.opt.base.exception.BusinessException;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFund;
-import com.ai.yc.common.dao.mapper.bo.GnSubjectFundKey;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFund;
+import com.ai.yk.common.dao.mapper.bo.GnSubjectFundKey;
 
 /**
  * 查询资金科目详细

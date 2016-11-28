@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.sysdomain.impl;
+package com.ai.yk.common.service.atom.sysdomain.impl;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.SysDomain;
-import com.ai.yc.common.dao.mapper.bo.SysDomainCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.sysdomain.ISysDomainAtomSV;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.SysDomain;
+import com.ai.yk.common.dao.mapper.bo.SysDomainCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.sysdomain.ISysDomainAtomSV;
 
 /**
  * @author hougang@asiainfo.com

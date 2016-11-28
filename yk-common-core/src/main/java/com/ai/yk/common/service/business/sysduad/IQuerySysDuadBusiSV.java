@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.business.sysduad;
+package com.ai.yk.common.service.business.sysduad;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
 
 /**
  * @author hougang@asiainfo.com

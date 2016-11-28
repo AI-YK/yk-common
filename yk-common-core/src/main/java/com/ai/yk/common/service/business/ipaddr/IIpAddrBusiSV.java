@@ -1,6 +1,6 @@
-package com.ai.yc.common.service.business.ipaddr;
+package com.ai.yk.common.service.business.ipaddr;
 
-import com.ai.yc.common.api.ipaddr.param.IpAddr;
+import com.ai.yk.common.api.ipaddr.param.IpAddr;
 
 public interface IIpAddrBusiSV {
 	IpAddr getIpAddrByIp(String ip);

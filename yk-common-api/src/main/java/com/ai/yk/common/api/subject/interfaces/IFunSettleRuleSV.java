@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subject.interfaces;
+package com.ai.yk.common.api.subject.interfaces;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.subject.param.FunSettleRule;
-import com.ai.yc.common.api.subject.param.SubjectIdParam;
+import com.ai.yk.common.api.subject.param.FunSettleRule;
+import com.ai.yk.common.api.subject.param.SubjectIdParam;
 
 /**
  * 销账规则查询<br>

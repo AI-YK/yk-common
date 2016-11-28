@@ -1,12 +1,12 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import java.util.List;
 
 import com.ai.paas.ipaas.mcs.interfaces.ICacheClient;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.cache.param.SysParam;
-import com.ai.yc.common.constants.CacheNSMapper;
-import com.ai.yc.common.constants.Constants;
+import com.ai.yk.common.api.cache.param.SysParam;
+import com.ai.yk.common.constants.CacheNSMapper;
+import com.ai.yk.common.constants.Constants;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 

@@ -1,6 +1,6 @@
-package com.ai.yc.common.service.atom.sysconfig;
+package com.ai.yk.common.service.atom.sysconfig;
 
-import com.ai.yc.common.dao.mapper.bo.SysConfig;
+import com.ai.yk.common.dao.mapper.bo.SysConfig;
 
 /**
  * @author hougang@asiainfo.com

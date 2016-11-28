@@ -1,15 +1,15 @@
-package com.ai.yc.common.service.atom.syspurpose.impl;
+package com.ai.yk.common.service.atom.syspurpose.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.SysPurpose;
-import com.ai.yc.common.dao.mapper.bo.SysPurposeCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.syspurpose.ISysPurposeAtomSV;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.SysPurpose;
+import com.ai.yk.common.dao.mapper.bo.SysPurposeCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.syspurpose.ISysPurposeAtomSV;
 
 /**
  * @author hougang@asiainfo.com

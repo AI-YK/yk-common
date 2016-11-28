@@ -1,4 +1,4 @@
-package com.ai.yc.common.cache;
+package com.ai.yk.common.cache;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.cache.base.AbstractCache;
-import com.ai.yc.common.constants.Constants;
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
-import com.ai.yc.common.service.atom.sysduad.ISysDuadAtomSV;
+import com.ai.yk.common.constants.Constants;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.service.atom.sysduad.ISysDuadAtomSV;
 
 /**
  * @Description: 写语言对到缓存

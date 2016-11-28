@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.sysuser.impl;
+package com.ai.yk.common.service.business.sysuser.impl;
 
 import java.util.List;
 
@@ -11,17 +11,17 @@ import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.paas.ipaas.util.JSonUtil;
 import com.ai.paas.ipaas.util.StringUtil;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeResponse;
-import com.ai.yc.common.api.sysuser.param.SysUserVO;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysUser;
-import com.ai.yc.common.service.atom.sysuser.ISysUserAtomSV;
-import com.ai.yc.common.service.business.sysuser.ISysUserBusiSV;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeResponse;
+import com.ai.yk.common.api.sysuser.param.SysUserVO;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysUser;
+import com.ai.yk.common.service.atom.sysuser.ISysUserAtomSV;
+import com.ai.yk.common.service.business.sysuser.ISysUserBusiSV;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 @Service

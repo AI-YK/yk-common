@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.syspurpose.interfaces;
+package com.ai.yk.common.api.syspurpose.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.syspurpose.param.QuerySysPurposeDetailsRes;
-import com.ai.yc.common.api.syspurpose.param.QuerySysPurposeListRes;
+import com.ai.yk.common.api.syspurpose.param.QuerySysPurposeDetailsRes;
+import com.ai.yk.common.api.syspurpose.param.QuerySysPurposeListRes;
 
 /**
  * @Description: 用途查询服务

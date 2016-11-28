@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysduad.impl;
+package com.ai.yk.common.api.sysduad.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,14 +12,14 @@ import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.sysduad.interfaces.IQuerySysDuadSV;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadDetailsRes;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListReq;
-import com.ai.yc.common.api.sysduad.param.QuerySysDuadListRes;
-import com.ai.yc.common.api.sysduad.param.SysDuadVo;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysDuad;
-import com.ai.yc.common.service.business.sysduad.IQuerySysDuadBusiSV;
+import com.ai.yk.common.api.sysduad.interfaces.IQuerySysDuadSV;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadDetailsRes;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListReq;
+import com.ai.yk.common.api.sysduad.param.QuerySysDuadListRes;
+import com.ai.yk.common.api.sysduad.param.SysDuadVo;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysDuad;
+import com.ai.yk.common.service.business.sysduad.IQuerySysDuadBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 /**

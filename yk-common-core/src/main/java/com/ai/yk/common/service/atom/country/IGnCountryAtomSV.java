@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.ai.yc.common.service.atom.country;
+package com.ai.yk.common.service.atom.country;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.GnCountry;
-import com.ai.yc.common.dao.mapper.bo.GnCountryCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnCountry;
+import com.ai.yk.common.dao.mapper.bo.GnCountryCriteria;
 
 /**
  * 国家查询原子层<br>

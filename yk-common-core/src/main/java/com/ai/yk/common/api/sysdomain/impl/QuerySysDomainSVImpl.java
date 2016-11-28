@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysdomain.impl;
+package com.ai.yk.common.api.sysdomain.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,13 +12,13 @@ import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.sysdomain.interfaces.IQuerySysDomainSV;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainDetailsRes;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainListRes;
-import com.ai.yc.common.api.sysdomain.param.SysDomainVo;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysDomain;
-import com.ai.yc.common.service.business.sysdomain.IQuerySysDomainBusiSV;
+import com.ai.yk.common.api.sysdomain.interfaces.IQuerySysDomainSV;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainDetailsRes;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainListRes;
+import com.ai.yk.common.api.sysdomain.param.SysDomainVo;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysDomain;
+import com.ai.yk.common.service.business.sysdomain.IQuerySysDomainBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 /**

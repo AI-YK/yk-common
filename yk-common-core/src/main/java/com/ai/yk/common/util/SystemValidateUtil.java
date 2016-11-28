@@ -1,19 +1,19 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.vo.BaseInfo;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserListQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserQueryRequest;
-import com.ai.yc.common.api.sysuser.param.SysUserThemeRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsCompleteRequset;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsInsertRequest;
-import com.ai.yc.common.api.waitjobs.param.WaitjobsVO;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserListQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserQueryRequest;
+import com.ai.yk.common.api.sysuser.param.SysUserThemeRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsCompleteRequset;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsInsertRequest;
+import com.ai.yk.common.api.waitjobs.param.WaitjobsVO;
 
 public class SystemValidateUtil {
 	private SystemValidateUtil() {

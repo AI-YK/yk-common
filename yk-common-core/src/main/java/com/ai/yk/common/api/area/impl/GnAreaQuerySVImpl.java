@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.area.impl;
+package com.ai.yk.common.api.area.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,15 +13,15 @@ import com.ai.opt.base.vo.PageInfo;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.CollectionUtil;
-import com.ai.yc.common.api.area.interfaces.IGnAreaQuerySV;
-import com.ai.yc.common.api.area.param.GnAreaCodeCondition;
-import com.ai.yc.common.api.area.param.GnAreaCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageCondition;
-import com.ai.yc.common.api.area.param.GnAreaPageFilterCondition;
-import com.ai.yc.common.api.area.param.GnAreaVo;
-import com.ai.yc.common.dao.mapper.bo.GnArea;
-import com.ai.yc.common.service.business.area.IGnAreaBusinessService;
-import com.ai.yc.common.util.VoValidateUtils;
+import com.ai.yk.common.api.area.interfaces.IGnAreaQuerySV;
+import com.ai.yk.common.api.area.param.GnAreaCodeCondition;
+import com.ai.yk.common.api.area.param.GnAreaCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageCondition;
+import com.ai.yk.common.api.area.param.GnAreaPageFilterCondition;
+import com.ai.yk.common.api.area.param.GnAreaVo;
+import com.ai.yk.common.dao.mapper.bo.GnArea;
+import com.ai.yk.common.service.business.area.IGnAreaBusinessService;
+import com.ai.yk.common.util.VoValidateUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.google.gson.Gson;
 

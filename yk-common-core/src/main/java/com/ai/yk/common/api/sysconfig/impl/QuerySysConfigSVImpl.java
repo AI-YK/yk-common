@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysconfig.impl;
+package com.ai.yk.common.api.sysconfig.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -8,14 +8,14 @@ import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
-import com.ai.yc.common.api.sysconfig.interfaces.IQuerySysConfigSV;
-import com.ai.yc.common.api.sysconfig.param.CommissionConfig;
-import com.ai.yc.common.api.sysconfig.param.DonateIntegralConfig;
-import com.ai.yc.common.api.sysconfig.param.HomeDataEidtConfig;
-import com.ai.yc.common.api.sysconfig.param.MemberConfig;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysConfig;
-import com.ai.yc.common.service.business.sysconfig.IQuerySysConfigBusiSV;
+import com.ai.yk.common.api.sysconfig.interfaces.IQuerySysConfigSV;
+import com.ai.yk.common.api.sysconfig.param.CommissionConfig;
+import com.ai.yk.common.api.sysconfig.param.DonateIntegralConfig;
+import com.ai.yk.common.api.sysconfig.param.HomeDataEidtConfig;
+import com.ai.yk.common.api.sysconfig.param.MemberConfig;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysConfig;
+import com.ai.yk.common.service.business.sysconfig.IQuerySysConfigBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 /**

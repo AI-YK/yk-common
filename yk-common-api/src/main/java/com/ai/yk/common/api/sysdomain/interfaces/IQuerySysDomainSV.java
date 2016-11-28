@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysdomain.interfaces;
+package com.ai.yk.common.api.sysdomain.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainDetailsRes;
-import com.ai.yc.common.api.sysdomain.param.QuerySysDomainListRes;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainDetailsRes;
+import com.ai.yk.common.api.sysdomain.param.QuerySysDomainListRes;
 
 /**
  * @Description: 领域查询服务

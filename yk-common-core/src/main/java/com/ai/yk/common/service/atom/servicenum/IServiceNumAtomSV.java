@@ -1,8 +1,8 @@
-package com.ai.yc.common.service.atom.servicenum;
+package com.ai.yk.common.service.atom.servicenum;
 
 import java.util.List;
 
-import com.ai.yc.common.dao.mapper.bo.GnServiceNum;
+import com.ai.yk.common.dao.mapper.bo.GnServiceNum;
 
 public interface IServiceNumAtomSV {
 	GnServiceNum getServiceNumByPhone(String phone);

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.subject.param;
+package com.ai.yk.common.api.subject.param;
 
 import java.sql.Timestamp;
 

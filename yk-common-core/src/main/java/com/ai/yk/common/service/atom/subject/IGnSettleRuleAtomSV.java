@@ -1,9 +1,9 @@
-package com.ai.yc.common.service.atom.subject;
+package com.ai.yk.common.service.atom.subject;
 
 import java.util.List;
 
 import com.ai.opt.base.exception.BusinessException;
-import com.ai.yc.common.dao.mapper.bo.GnSettleRuleKey;
+import com.ai.yk.common.dao.mapper.bo.GnSettleRuleKey;
 
 public interface IGnSettleRuleAtomSV {
 

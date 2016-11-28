@@ -1,17 +1,17 @@
-package com.ai.yc.common.service.atom.office.impl;
+package com.ai.yk.common.service.atom.office.impl;
 
 import java.util.LinkedList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.ai.yc.common.constants.VOConstants.DeleteFlagConstant;
-import com.ai.yc.common.constants.VOConstants.UseableFlagConstant;
-import com.ai.yc.common.dao.mapper.bo.SysOffice;
-import com.ai.yc.common.dao.mapper.bo.SysOfficeCriteria;
-import com.ai.yc.common.dao.mapper.bo.SysOfficeCriteria.Criteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.office.ISysOfficeAtomService;
+import com.ai.yk.common.constants.VOConstants.DeleteFlagConstant;
+import com.ai.yk.common.constants.VOConstants.UseableFlagConstant;
+import com.ai.yk.common.dao.mapper.bo.SysOffice;
+import com.ai.yk.common.dao.mapper.bo.SysOfficeCriteria;
+import com.ai.yk.common.dao.mapper.bo.SysOfficeCriteria.Criteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.office.ISysOfficeAtomService;
 
 @Component
 public class SysOfficeAtomService implements ISysOfficeAtomService{

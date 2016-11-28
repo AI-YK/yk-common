@@ -1,13 +1,13 @@
-package com.ai.yc.common.service.business.syspurpose.impl;
+package com.ai.yk.common.service.business.syspurpose.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ai.yc.common.dao.mapper.bo.SysPurpose;
-import com.ai.yc.common.service.atom.syspurpose.ISysPurposeAtomSV;
-import com.ai.yc.common.service.business.syspurpose.IQuerySysPurposeBusiSV;
+import com.ai.yk.common.dao.mapper.bo.SysPurpose;
+import com.ai.yk.common.service.atom.syspurpose.ISysPurposeAtomSV;
+import com.ai.yk.common.service.business.syspurpose.IQuerySysPurposeBusiSV;
 
 /**
  * @author hougang@asiainfo.com

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.syspurpose.impl;
+package com.ai.yk.common.api.syspurpose.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,13 +12,13 @@ import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.constants.ExceptCodeConstants;
 import com.ai.opt.sdk.util.BeanUtils;
 import com.ai.opt.sdk.util.StringUtil;
-import com.ai.yc.common.api.syspurpose.interfaces.IQuerySysPurposeSV;
-import com.ai.yc.common.api.syspurpose.param.QuerySysPurposeDetailsRes;
-import com.ai.yc.common.api.syspurpose.param.QuerySysPurposeListRes;
-import com.ai.yc.common.api.syspurpose.param.SysPurposeVo;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysPurpose;
-import com.ai.yc.common.service.business.syspurpose.IQuerySysPurposeBusiSV;
+import com.ai.yk.common.api.syspurpose.interfaces.IQuerySysPurposeSV;
+import com.ai.yk.common.api.syspurpose.param.QuerySysPurposeDetailsRes;
+import com.ai.yk.common.api.syspurpose.param.QuerySysPurposeListRes;
+import com.ai.yk.common.api.syspurpose.param.SysPurposeVo;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysPurpose;
+import com.ai.yk.common.service.business.syspurpose.IQuerySysPurposeBusiSV;
 import com.alibaba.dubbo.config.annotation.Service;
 
 /**

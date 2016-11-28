@@ -1,11 +1,11 @@
-package com.ai.yc.common.dao.mapper.interfaces;
+package com.ai.yk.common.dao.mapper.interfaces;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.ai.yc.common.dao.mapper.bo.GnSysParam;
-import com.ai.yc.common.dao.mapper.bo.GnSysParamCriteria;
+import com.ai.yk.common.dao.mapper.bo.GnSysParam;
+import com.ai.yk.common.dao.mapper.bo.GnSysParamCriteria;
 
 public interface GnSysParamMapper {
     int countByExample(GnSysParamCriteria example);

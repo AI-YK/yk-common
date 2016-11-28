@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.business.menu.impl;
+package com.ai.yk.common.service.business.menu.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,15 +10,15 @@ import org.springframework.transaction.annotation.Transactional;
 import com.ai.opt.base.vo.ResponseHeader;
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.paas.ipaas.util.JSonUtil;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryRequest;
-import com.ai.yc.common.api.menu.param.SysMenuListQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeVO;
-import com.ai.yc.common.constants.ResultCodeConstants;
-import com.ai.yc.common.dao.mapper.bo.SysMenu;
-import com.ai.yc.common.dao.mapper.bo.SysOffice;
-import com.ai.yc.common.service.atom.menu.ISysMenuAtomService;
-import com.ai.yc.common.service.business.menu.ISysMenuBusinessService;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryRequest;
+import com.ai.yk.common.api.menu.param.SysMenuListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeVO;
+import com.ai.yk.common.constants.ResultCodeConstants;
+import com.ai.yk.common.dao.mapper.bo.SysMenu;
+import com.ai.yk.common.dao.mapper.bo.SysOffice;
+import com.ai.yk.common.service.atom.menu.ISysMenuAtomService;
+import com.ai.yk.common.service.business.menu.ISysMenuBusinessService;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

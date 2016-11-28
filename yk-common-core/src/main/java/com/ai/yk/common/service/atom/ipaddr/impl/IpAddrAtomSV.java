@@ -1,4 +1,4 @@
-package com.ai.yc.common.service.atom.ipaddr.impl;
+package com.ai.yk.common.service.atom.ipaddr.impl;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 
 import com.ai.opt.sdk.util.CollectionUtil;
 import com.ai.opt.sdk.util.IPUtil;
-import com.ai.yc.common.dao.mapper.bo.GnIpAddr;
-import com.ai.yc.common.dao.mapper.bo.GnIpAddrCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.ipaddr.IIpAddrAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnIpAddr;
+import com.ai.yk.common.dao.mapper.bo.GnIpAddrCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.ipaddr.IIpAddrAtomSV;
 
 @Component
 public class IpAddrAtomSV implements IIpAddrAtomSV {

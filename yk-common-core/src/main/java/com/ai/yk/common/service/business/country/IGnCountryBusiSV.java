@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.ai.yc.common.service.business.country;
+package com.ai.yk.common.service.business.country;
 
 import java.util.List;
 
-import com.ai.yc.common.api.country.param.CountryRequest;
-import com.ai.yc.common.dao.mapper.bo.GnCountry;
+import com.ai.yk.common.api.country.param.CountryRequest;
+import com.ai.yk.common.dao.mapper.bo.GnCountry;
 
 /**
  * 国家查询业务层<br>

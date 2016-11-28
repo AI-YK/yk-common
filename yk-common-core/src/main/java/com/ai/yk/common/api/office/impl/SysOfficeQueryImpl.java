@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.office.impl;
+package com.ai.yk.common.api.office.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -6,16 +6,16 @@ import org.springframework.stereotype.Component;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.BaseInfo;
-import com.ai.yc.common.api.office.interfaces.ISysOfficeQuerySV;
-import com.ai.yc.common.api.office.param.OfficeAllQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryResponse;
-import com.ai.yc.common.service.business.office.ISysOfficeBusinessService;
-import com.ai.yc.common.util.SystemValidateUtil;
+import com.ai.yk.common.api.office.interfaces.ISysOfficeQuerySV;
+import com.ai.yk.common.api.office.param.OfficeAllQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryResponse;
+import com.ai.yk.common.service.business.office.ISysOfficeBusinessService;
+import com.ai.yk.common.util.SystemValidateUtil;
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service

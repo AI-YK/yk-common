@@ -1,4 +1,4 @@
-package com.ai.yc.common.util;
+package com.ai.yk.common.util;
 
 import java.io.InputStream;
 import java.util.Properties;

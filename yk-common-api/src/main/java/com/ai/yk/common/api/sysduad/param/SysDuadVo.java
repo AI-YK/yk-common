@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.sysduad.param;
+package com.ai.yk.common.api.sysduad.param;
 
 import java.io.Serializable;
 

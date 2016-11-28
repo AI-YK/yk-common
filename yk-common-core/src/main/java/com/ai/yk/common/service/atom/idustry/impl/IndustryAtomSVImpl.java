@@ -1,13 +1,13 @@
-package com.ai.yc.common.service.atom.idustry.impl;
+package com.ai.yk.common.service.atom.idustry.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.ai.yc.common.dao.mapper.bo.GnIndustry;
-import com.ai.yc.common.dao.mapper.bo.GnIndustryCriteria;
-import com.ai.yc.common.dao.mapper.factory.MapperFactory;
-import com.ai.yc.common.service.atom.idustry.IIdustryAtomSV;
+import com.ai.yk.common.dao.mapper.bo.GnIndustry;
+import com.ai.yk.common.dao.mapper.bo.GnIndustryCriteria;
+import com.ai.yk.common.dao.mapper.factory.MapperFactory;
+import com.ai.yk.common.service.atom.idustry.IIdustryAtomSV;
 
 @Component
 public class IndustryAtomSVImpl implements IIdustryAtomSV {

@@ -1,4 +1,4 @@
-package com.ai.yc.common.api.office.interfaces;
+package com.ai.yk.common.api.office.interfaces;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -9,13 +9,13 @@ import javax.ws.rs.core.MediaType;
 import com.ai.opt.base.exception.BusinessException;
 import com.ai.opt.base.exception.SystemException;
 import com.ai.opt.base.vo.BaseInfo;
-import com.ai.yc.common.api.office.param.OfficeAllQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeChildrenListQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeDetailQueryResponse;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryRequest;
-import com.ai.yc.common.api.office.param.OfficeParentListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeAllQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeChildrenListQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeDetailQueryResponse;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryRequest;
+import com.ai.yk.common.api.office.param.OfficeParentListQueryResponse;
 
 /**
  * 组织机构对外接口
